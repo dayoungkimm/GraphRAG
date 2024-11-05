@@ -8,7 +8,6 @@ from datetime import datetime
 log_data_path = './Android_2k.log_structured.csv'
 log_data = pd.read_csv(log_data_path)
 log_data
-
 #%%[markdown]
 ## 지식그래프 구축
 
