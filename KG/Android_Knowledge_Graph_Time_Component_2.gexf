@@ -1,0 +1,761 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-04">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="time" type="string" />
+      <attribute id="1" title="time_difference" type="double" />
+    </attributes>
+    <nodes>
+      <node id="WindowManager" label="WindowManager" />
+      <node id="PowerManagerService" label="PowerManagerService" />
+      <node id="TextView" label="TextView" />
+      <node id="StackScrollAlgorithm" label="StackScrollAlgorithm" />
+      <node id="ActivityManager" label="ActivityManager" />
+      <node id="PhoneStatusBar" label="PhoneStatusBar" />
+      <node id="AlarmManager" label="AlarmManager" />
+      <node id="PhoneInterfaceManager" label="PhoneInterfaceManager" />
+      <node id="TelephonyManager" label="TelephonyManager" />
+      <node id="DisplayPowerController" label="DisplayPowerController" />
+      <node id="AudioManager" label="AudioManager" />
+      <node id="PanelView" label="PanelView" />
+      <node id="NotificationManager" label="NotificationManager" />
+      <node id="KeyguardUpdateMonitor" label="KeyguardUpdateMonitor" />
+      <node id="DisplayManagerService" label="DisplayManagerService" />
+      <node id="MediaPlayer" label="MediaPlayer" />
+      <node id="DeviceIdleController" label="DeviceIdleController" />
+      <node id="WifiService" label="WifiService" />
+      <node id="WifiController" label="WifiController" />
+    </nodes>
+    <edges>
+      <edge source="WindowManager" target="PowerManagerService" id="0">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.105000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="WindowManager" target="TextView" id="1">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:38.839000" />
+          <attvalue for="1" value="0.02" />
+        </attvalues>
+      </edge>
+      <edge source="WindowManager" target="StackScrollAlgorithm" id="2">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.816000" />
+          <attvalue for="1" value="0.034" />
+        </attvalues>
+      </edge>
+      <edge source="WindowManager" target="WindowManager" id="3">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.399000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="WindowManager" target="AudioManager" id="4">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.165000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="WindowManager" target="PhoneStatusBar" id="5">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.399000" />
+          <attvalue for="1" value="0.009" />
+        </attvalues>
+      </edge>
+      <edge source="WindowManager" target="DisplayPowerController" id="6">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:48.032000" />
+          <attvalue for="1" value="0.52" />
+        </attvalues>
+      </edge>
+      <edge source="WindowManager" target="ActivityManager" id="7">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:48.336000" />
+          <attvalue for="1" value="0.09" />
+        </attvalues>
+      </edge>
+      <edge source="WindowManager" target="PanelView" id="8">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:39.444000" />
+          <attvalue for="1" value="0.103" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="PowerManagerService" id="9">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.809000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="WindowManager" id="10">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.163000" />
+          <attvalue for="1" value="0.002" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="PhoneStatusBar" id="11">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.209000" />
+          <attvalue for="1" value="0.003" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="AlarmManager" id="12">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:00.003000" />
+          <attvalue for="1" value="0.002" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="PhoneInterfaceManager" id="13">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:27.198000" />
+          <attvalue for="1" value="0.038" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="DisplayPowerController" id="14">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:03.361000" />
+          <attvalue for="1" value="0.044" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="PanelView" id="15">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.671000" />
+          <attvalue for="1" value="0.005" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="NotificationManager" id="16">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.809000" />
+          <attvalue for="1" value="0.009" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="ActivityManager" id="17">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:53.718000" />
+          <attvalue for="1" value="0.327" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="StackScrollAlgorithm" id="18">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:05.579000" />
+          <attvalue for="1" value="0.011" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="AudioManager" id="19">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:01.470000" />
+          <attvalue for="1" value="0.06" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="DisplayManagerService" id="20">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:14:27.075000" />
+          <attvalue for="1" value="0.086" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="TelephonyManager" id="21">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:08.056000" />
+          <attvalue for="1" value="0.003" />
+        </attvalues>
+      </edge>
+      <edge source="PowerManagerService" target="KeyguardUpdateMonitor" id="22">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:02.895000" />
+          <attvalue for="1" value="0.002" />
+        </attvalues>
+      </edge>
+      <edge source="TextView" target="TextView" id="23">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:38.887000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="TextView" target="PowerManagerService" id="24">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:38.888000" />
+          <attvalue for="1" value="0.017" />
+        </attvalues>
+      </edge>
+      <edge source="StackScrollAlgorithm" target="StackScrollAlgorithm" id="25">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:07.188000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="StackScrollAlgorithm" target="ActivityManager" id="26">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.950000" />
+          <attvalue for="1" value="0.111" />
+        </attvalues>
+      </edge>
+      <edge source="StackScrollAlgorithm" target="PhoneStatusBar" id="27">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.794000" />
+          <attvalue for="1" value="0.014" />
+        </attvalues>
+      </edge>
+      <edge source="StackScrollAlgorithm" target="PanelView" id="28">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.689000" />
+          <attvalue for="1" value="0.044" />
+        </attvalues>
+      </edge>
+      <edge source="StackScrollAlgorithm" target="WindowManager" id="29">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:39.249000" />
+          <attvalue for="1" value="0.195" />
+        </attvalues>
+      </edge>
+      <edge source="StackScrollAlgorithm" target="NotificationManager" id="30">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:47.338000" />
+          <attvalue for="1" value="0.003" />
+        </attvalues>
+      </edge>
+      <edge source="StackScrollAlgorithm" target="KeyguardUpdateMonitor" id="31">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:00.049000" />
+          <attvalue for="1" value="0.009" />
+        </attvalues>
+      </edge>
+      <edge source="StackScrollAlgorithm" target="PowerManagerService" id="32">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:39.709000" />
+          <attvalue for="1" value="2.67" />
+        </attvalues>
+      </edge>
+      <edge source="StackScrollAlgorithm" target="DisplayPowerController" id="33">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:07.188000" />
+          <attvalue for="1" value="0.447" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="PowerManagerService" id="34">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:54.640000" />
+          <attvalue for="1" value="0.081" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="ActivityManager" id="35">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:07.084000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="WindowManager" id="36">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:46.770000" />
+          <attvalue for="1" value="0.144" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="PhoneStatusBar" id="37">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.785000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="PanelView" id="38">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:07.084000" />
+          <attvalue for="1" value="0.06" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="StackScrollAlgorithm" id="39">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.773000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="NotificationManager" id="40">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.791000" />
+          <attvalue for="1" value="0.017" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="AudioManager" id="41">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:50.042000" />
+          <attvalue for="1" value="0.079" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="DisplayPowerController" id="42">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:03.691000" />
+          <attvalue for="1" value="0.016" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="DisplayManagerService" id="43">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:27.628000" />
+          <attvalue for="1" value="0.2" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="PhoneInterfaceManager" id="44">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:27.830000" />
+          <attvalue for="1" value="0.269" />
+        </attvalues>
+      </edge>
+      <edge source="ActivityManager" target="AlarmManager" id="45">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:05.443000" />
+          <attvalue for="1" value="0.069" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="PhoneStatusBar" id="46">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.785000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="WindowManager" id="47">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.243000" />
+          <attvalue for="1" value="0.048" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="ActivityManager" id="48">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.764000" />
+          <attvalue for="1" value="0.008" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="PowerManagerService" id="49">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.808000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="PanelView" id="50">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.783000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="NotificationManager" id="51">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.762000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="StackScrollAlgorithm" id="52">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.786000" />
+          <attvalue for="1" value="0.007" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="KeyguardUpdateMonitor" id="53">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:47.736000" />
+          <attvalue for="1" value="0.007" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="DisplayPowerController" id="54">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:03.002000" />
+          <attvalue for="1" value="0.102" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="AudioManager" id="55">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.541000" />
+          <attvalue for="1" value="0.042" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="PhoneInterfaceManager" id="56">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:52.546000" />
+          <attvalue for="1" value="0.015" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneStatusBar" target="MediaPlayer" id="57">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:00.484000" />
+          <attvalue for="1" value="0.005" />
+        </attvalues>
+      </edge>
+      <edge source="AlarmManager" target="WindowManager" id="58">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:39.095000" />
+          <attvalue for="1" value="0.112" />
+        </attvalues>
+      </edge>
+      <edge source="AlarmManager" target="PowerManagerService" id="59">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:05.512000" />
+          <attvalue for="1" value="0.002" />
+        </attvalues>
+      </edge>
+      <edge source="AlarmManager" target="AlarmManager" id="60">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:00.005000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="AlarmManager" target="StackScrollAlgorithm" id="61">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:00.005000" />
+          <attvalue for="1" value="0.026" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneInterfaceManager" target="PhoneInterfaceManager" id="62">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:52.569000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneInterfaceManager" target="TelephonyManager" id="63">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:06.154000" />
+          <attvalue for="1" value="0.038" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneInterfaceManager" target="PowerManagerService" id="64">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:52.569000" />
+          <attvalue for="1" value="0.513" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneInterfaceManager" target="DisplayPowerController" id="65">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:29.173000" />
+          <attvalue for="1" value="0.219" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneInterfaceManager" target="ActivityManager" id="66">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:51.200000" />
+          <attvalue for="1" value="0.036" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneInterfaceManager" target="WindowManager" id="67">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:26.920000" />
+          <attvalue for="1" value="0.026" />
+        </attvalues>
+      </edge>
+      <edge source="PhoneInterfaceManager" target="PhoneStatusBar" id="68">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:49.595000" />
+          <attvalue for="1" value="0.075" />
+        </attvalues>
+      </edge>
+      <edge source="TelephonyManager" target="PhoneInterfaceManager" id="69">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:08.059000" />
+          <attvalue for="1" value="0.003" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayPowerController" target="DisplayPowerController" id="70">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:09.141000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayPowerController" target="PowerManagerService" id="71">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:03.707000" />
+          <attvalue for="1" value="0.387" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayPowerController" target="ActivityManager" id="72">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:03.405000" />
+          <attvalue for="1" value="0.266" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayPowerController" target="PhoneStatusBar" id="73">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:01.295000" />
+          <attvalue for="1" value="0.023" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayPowerController" target="AudioManager" id="74">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.734000" />
+          <attvalue for="1" value="0.012" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayPowerController" target="AlarmManager" id="75">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:14:56.872000" />
+          <attvalue for="1" value="3.129" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayPowerController" target="WindowManager" id="76">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:00.994000" />
+          <attvalue for="1" value="0.104" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayPowerController" target="PhoneInterfaceManager" id="77">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:51.057000" />
+          <attvalue for="1" value="0.126" />
+        </attvalues>
+      </edge>
+      <edge source="AudioManager" target="PowerManagerService" id="78">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.583000" />
+          <attvalue for="1" value="0.014" />
+        </attvalues>
+      </edge>
+      <edge source="AudioManager" target="PhoneStatusBar" id="79">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.746000" />
+          <attvalue for="1" value="0.01" />
+        </attvalues>
+      </edge>
+      <edge source="AudioManager" target="NotificationManager" id="80">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:33.426000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="AudioManager" target="AudioManager" id="81">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.746000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="AudioManager" target="ActivityManager" id="82">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:49.206000" />
+          <attvalue for="1" value="0.003" />
+        </attvalues>
+      </edge>
+      <edge source="AudioManager" target="WindowManager" id="83">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:00.284000" />
+          <attvalue for="1" value="0.005" />
+        </attvalues>
+      </edge>
+      <edge source="AudioManager" target="AlarmManager" id="84">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:14:25.816000" />
+          <attvalue for="1" value="1.229" />
+        </attvalues>
+      </edge>
+      <edge source="AudioManager" target="DisplayPowerController" id="85">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:01.530000" />
+          <attvalue for="1" value="0.068" />
+        </attvalues>
+      </edge>
+      <edge source="AudioManager" target="MediaPlayer" id="86">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:18.856000" />
+          <attvalue for="1" value="0.003" />
+        </attvalues>
+      </edge>
+      <edge source="PanelView" target="PanelView" id="87">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.783000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="PanelView" target="AudioManager" id="88">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:47.078000" />
+          <attvalue for="1" value="0.013" />
+        </attvalues>
+      </edge>
+      <edge source="PanelView" target="PhoneStatusBar" id="89">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.783000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="PanelView" target="WindowManager" id="90">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:46.250000" />
+          <attvalue for="1" value="0.027" />
+        </attvalues>
+      </edge>
+      <edge source="PanelView" target="StackScrollAlgorithm" id="91">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:07.144000" />
+          <attvalue for="1" value="0.044" />
+        </attvalues>
+      </edge>
+      <edge source="PanelView" target="PowerManagerService" id="92">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:49.573000" />
+          <attvalue for="1" value="0.003" />
+        </attvalues>
+      </edge>
+      <edge source="PanelView" target="DisplayPowerController" id="93">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.733000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="PanelView" target="ActivityManager" id="94">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.784000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="NotificationManager" target="NotificationManager" id="95">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.818000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="NotificationManager" target="AudioManager" id="96">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:33.424000" />
+          <attvalue for="1" value="0.002" />
+        </attvalues>
+      </edge>
+      <edge source="NotificationManager" target="StackScrollAlgorithm" id="97">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:33.533000" />
+          <attvalue for="1" value="0.021" />
+        </attvalues>
+      </edge>
+      <edge source="NotificationManager" target="PhoneStatusBar" id="98">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.763000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="NotificationManager" target="ActivityManager" id="99">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:06.819000" />
+          <attvalue for="1" value="0.053" />
+        </attvalues>
+      </edge>
+      <edge source="NotificationManager" target="PowerManagerService" id="100">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:47.707000" />
+          <attvalue for="1" value="0.002" />
+        </attvalues>
+      </edge>
+      <edge source="NotificationManager" target="PhoneInterfaceManager" id="101">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:49.593000" />
+          <attvalue for="1" value="0.002" />
+        </attvalues>
+      </edge>
+      <edge source="NotificationManager" target="WindowManager" id="102">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:04.808000" />
+          <attvalue for="1" value="0.008" />
+        </attvalues>
+      </edge>
+      <edge source="KeyguardUpdateMonitor" target="KeyguardUpdateMonitor" id="103">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:02.899000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="KeyguardUpdateMonitor" target="PhoneInterfaceManager" id="104">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:46.765000" />
+          <attvalue for="1" value="0.013" />
+        </attvalues>
+      </edge>
+      <edge source="KeyguardUpdateMonitor" target="PhoneStatusBar" id="105">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:47.743000" />
+          <attvalue for="1" value="0.067" />
+        </attvalues>
+      </edge>
+      <edge source="KeyguardUpdateMonitor" target="PowerManagerService" id="106">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:02.900000" />
+          <attvalue for="1" value="0.003" />
+        </attvalues>
+      </edge>
+      <edge source="KeyguardUpdateMonitor" target="ActivityManager" id="107">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:00.064000" />
+          <attvalue for="1" value="0.035" />
+        </attvalues>
+      </edge>
+      <edge source="KeyguardUpdateMonitor" target="DisplayPowerController" id="108">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:00.061000" />
+          <attvalue for="1" value="0.029" />
+        </attvalues>
+      </edge>
+      <edge source="KeyguardUpdateMonitor" target="DeviceIdleController" id="109">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:02.897000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayManagerService" target="DisplayManagerService" id="110">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:27.828000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayManagerService" target="AudioManager" id="111">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:13:55.940000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="DisplayManagerService" target="ActivityManager" id="112">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:27.828000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="MediaPlayer" target="MediaPlayer" id="113">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:18.859000" />
+          <attvalue for="1" value="0.007" />
+        </attvalues>
+      </edge>
+      <edge source="MediaPlayer" target="ActivityManager" id="114">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:15:18.866000" />
+          <attvalue for="1" value="1.013" />
+        </attvalues>
+      </edge>
+      <edge source="MediaPlayer" target="PhoneStatusBar" id="115">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:00.489000" />
+          <attvalue for="1" value="0.016" />
+        </attvalues>
+      </edge>
+      <edge source="DeviceIdleController" target="WifiService" id="116">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:02.898000" />
+          <attvalue for="1" value="0.001" />
+        </attvalues>
+      </edge>
+      <edge source="WifiService" target="WifiService" id="117">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:02.899000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="WifiService" target="WifiController" id="118">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:02.899000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="WifiController" target="WifiController" id="119">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:02.899000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="WifiController" target="KeyguardUpdateMonitor" id="120">
+        <attvalues>
+          <attvalue for="0" value="1900-03-17 16:16:02.899000" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
