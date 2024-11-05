@@ -10,7 +10,6 @@ log_data = pd.read_csv(log_data_path)
 log_data
 #%%[markdown]
 ## 지식그래프 구축
-
 # 지식 그래프 초기화
 G = nx.MultiDiGraph()
 
